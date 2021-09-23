@@ -1,0 +1,54 @@
+.us-section {
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us {
+    /* border: solid; */
+    padding: 10px;
+}
+
+.about-us-title {
+    margin: 0;
+}
+
+.about-us-description {
+    margin: 0;
+    text-align: justify;
+}
+
+.formulary-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formulary {
+    /* margin-right: 100px; */
+    background-color: skyblue;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulary-title {
+    background-color: royalblue;
+}
+
+.formulary-input {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input-label {
+    font-size: 18px;
+}
+
+.form-input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    border: solid 2px;
+}

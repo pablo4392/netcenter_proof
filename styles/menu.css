@@ -1,0 +1,22 @@
+.menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background-color: red;
+    border-radius: 1rem;
+}

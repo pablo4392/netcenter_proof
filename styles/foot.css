@@ -1,0 +1,15 @@
+.foot {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+}
+
+.first-data {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-data {
+    display: flex;
+    flex-wrap: wrap;
+}
