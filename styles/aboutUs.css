@@ -1,6 +1,7 @@
 .us-section {
+    padding: 40px 0;
+    background-color: #E6E6E6;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -26,11 +27,11 @@
 }
 
 .formulary {
-    background-color: rgba(15, 83, 186, 0.1);
     width: 300px;
     height: max-content;
     display: flex;
     flex-direction: column;
+    border: solid #0F52BA 1px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -73,6 +74,7 @@
 
 /*-------------------- ADVANTAGES --------------*/
 .advantages {
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +106,7 @@
 }
 
 .advantage-description {
-    margin: 0 10;
+    margin: 0;
+    padding: 8px;
     text-align: center;
 }
