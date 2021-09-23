@@ -111,7 +111,7 @@
 
     <!-- ABOUT US -->
     <div class="us-section" id="aboutUs">        
-        <div class="col-sm-12 col-md-7 col-lg-7 about-us">
+        <div class="col-sm-12 col-md-7 col-lg-8 about-us">
             <h3 class="about-us-title">About  Us</h3>
             <p class="about-us-description">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, modi quia. Repellendus corrupti expedita accusamus consequatur odio eius ipsa earum amet beatae modi nulla adipisci, provident ab culpa minus veritatis.
@@ -120,10 +120,14 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, vero tenetur? Deserunt suscipit provident temporibus quaerat dolore ut, laboriosam officia assumenda placeat consectetur dolorem ipsam quibusdam! Earum, sapiente tenetur? Ea.
             </p>
         </div>
-        <div class="col-sm-12 col-md-5 col-lg-5 formulary-section">
+        <div class="col-sm-12 col-md-5 col-lg-4 formulary-section">
             <div class="formulary">
                 <h3 class="formulary-title">Contact us</h3>
                 <form class="formulary-us" action="">
+                    <div class="formulary-input">
+                        <label for="" class="form-input-label"> You can request information on an approximate date </label>
+                        <input type="date" class="form-input">
+                    </div>
                     <div class="formulary-input">
                         <label class="form-input-label" for="name"> Name </label>
                         <input class="form-input" type="text" id="name"/>
@@ -182,45 +186,55 @@
         <div class="first-data">
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="foot-terms">
-                    <a href="#">TERMS & CONDITIONS</a>
-                    <a href="#">PRIVACY POLICY</a>
+                    <a class="link-terms" href="#">TERMS & CONDITIONS</a>
+                    <a class="link-terms" href="#">PRIVACY POLICY</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="foot-contact">
-                    <div class="navigation">
-                        <i class="fas fa-phone"></i>
+                    <div class="contact-pos">
+                        <i class="fas fa-phone contact-icon"></i>
                         <p class="contact-info">555-693-8020</p>
                     </div>
-                    <div>
-                        <i class="fas fa-at"></i>
-                        <p>enjoy-travel@mail.com</p>
+                    <div class="contact-pos">
+                        <i class="fas fa-at contact-icon"></i>
+                        <p class="contact-info">enjoy-travel@mail.com</p>
                     </div>
-                    <div>
-                        <i class="fas fa-globe"></i>
-                        <p>www.enjoytravel.com</p>
+                    <div class="contact-pos">
+                        <i class="fas fa-globe contact-icon"></i>
+                        <p class="contact-info">www.enjoytravel.com</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
-                <div class="foot-media">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
+            <div class="foot-media col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-4 col-md-4 col-lg-4 space-foot-icon">
+                    <i class="fab fa-facebook foot-icon"></i>
                 </div>
-            </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 space-foot-icon">
+                    <i class="fab fa-instagram foot-icon"></i>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 space-foot-icon">
+                    <i class="fab fa-twitter foot-icon"></i>
+                </div>
+            </div>        
         </div>
         <div class="second-data">
             <div class="col-sm-12 col-md-6 col-lg-6">
-                Copyright <i class="far fa-copyright"></i> 2021.
-                Enjoy Travel. All Rights Reserved.
+                <div class="credit-cards">
+                    <h6 class="credit-card-title">Accepted all credit cards</h6>
+                    <div class="credit-card-icons">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-discover"></i>
+                        <i class="fab fa-cc-amex"></i>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
-                <h6>Accepted all credit cards</h6>
-                <i class="fab fa-cc-visa"></i>
-                <i class="fab fa-cc-mastercard"></i>
-                <i class="fab fa-cc-discover"></i>
-                <i class="fab fa-cc-amex"></i>
+                <div class="copy">
+                    Copyright <i class="far fa-copyright"></i> 2021.
+                    Enjoy Travel. All Rights Reserved.
+                </div>
             </div>
         </div>
     </footer>

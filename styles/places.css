@@ -30,7 +30,7 @@
 }
 
 .card-overlay {
-    background-color: rgba(1, 13, 41, 0.3);
+    background-color: rgba(1, 13, 41, 0.2);
     width: 100%;
     height: 100%;
     display: flex;
@@ -64,7 +64,7 @@
 }
 
 #rivieraMaya {
-    background-image: url(https://gran.luchito.com/wp-content/uploads/2019/01/Cancun.jpg);
+    background-image: url(https://www.atrapalo.pe/common/photo/vv/66373/9/ticr_640_350.jpg);
     background-size: cover;
     background-position: center;
 }
