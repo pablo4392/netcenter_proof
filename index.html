@@ -14,17 +14,17 @@
     <title>Netcenter proof</title>
 </head>
 <body>
-    <!-- MEU -->
+    <!-- MENU -->
     <div class="sticky-top sticky-properties">
         <div class="menu">
             <div class="col-3 nav">
-                <a class="nav-link" href="#locations"> Locations </a>
+                <a class="link-navigation" href="#locations"> Locations </a>
             </div>
             <div class="col-3 nav">
-                <a class="nav-link" href="#aboutUs"> About Us </a>
+                <a class="link-navigation" href="#aboutUs"> About Us </a>
             </div>
             <div class="col-3 nav">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="link-navigation" href="#contact">Contact</a>
             </div>           
         </div>
     </div>
@@ -68,31 +68,43 @@
     <!-- PLACES -->
     <div class="places-section" id="locations">
         <div class="place col-sm-12 col-md-6 col-lg-3">
-            <div class="card-place">
-                aqui iran las locaciones 1
+            <div class="card-place" id="cancun">
+                <div class="card-overlay">
+                    <h3 class="card-title">Cancún</h3>
+                    <button class="btn btn-outline-light mb-4">Info</button>
+                </div>
             </div>
         </div>
         <div class="place col-sm-12 col-md-6 col-lg-3">
-            <div class="card-place">
-                aqui iran las locaciones 2
+            <div class="card-place" id="puertoVallarta" >
+                <div class="card-overlay">
+                    <h3 class="card-title">Puerto Vallarta</h3>
+                    <button class="btn btn-outline-light mb-4">Info</button>
+                </div>
             </div>
         </div>
         <div class="place col-sm-12 col-md-6 col-lg-3">
-            <div class="card-place">
-                aqui iran las locaciones 3
+            <div class="card-place" id="losCabos">
+                <div class="card-overlay card-info">
+                    <h3 class="card-title">Los Cabos</h3>
+                    <button class="btn btn-outline-light mb-4">Info</button>
+                </div>
             </div>
         </div>
         <div class="place col-sm-12 col-md-6 col-lg-3">
-            <div class="card-place">
-                aqui iran las locaciones 4
+            <div class="card-place" id="rivieraMaya">
+                <div class="card-overlay">
+                    <h3 class="card-title">Riviera Maya</h3>
+                    <button class="btn btn-outline-light mb-4">Info</button>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- ABOUT US -->
-    <div class="us-section" id="aboutUs">
+    <div class="us-section" id="aboutUs">        
         <div class="col-sm-12 col-md-7 col-lg-7 about-us">
-            <h3 class="about-us-title">about us</h3>
+            <h3 class="about-us-title">About  Us</h3>
             <p class="about-us-description">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, modi quia. Repellendus corrupti expedita accusamus consequatur odio eius ipsa earum amet beatae modi nulla adipisci, provident ab culpa minus veritatis.
             </p>
@@ -117,8 +129,39 @@
                         <label class="form-input-label" for="mail"> Email </label>
                         <input class="form-input" type="mail" id="mail"/>
                     </div>
-                    <button type="button" class="btn btn-outline-primary">Submit</button>                    
+                    <div class="formulary-button">
+                        <button type="button" class="btn btn-outline-primary">Submit</button>                    
+                    </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="advantages">
+        <h2>why to book directly with us?</h2>
+        <div class="icons">
+            <div class="col-sm-6 col-md-3 col-lg-3 advantage-section">
+                <div class="advantage-icon">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <p class="advantage-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+            </div> 
+            <div class="col-sm-3 col-md-3 col-lg-3 advantage-section">
+                <div class="advantage-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <p class="advantage-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 advantage-section">
+                <div class="advantage-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <p class="advantage-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 advantage-section">
+                <div class="advantage-icon">
+                    <i class="far fa-calendar-check"></i>
+                </div>
+                <p class="advantage-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
             </div>
         </div>
     </div>
@@ -127,18 +170,33 @@
     <footer class="foot" id="contact">
         <div class="first-data">
             <div class="col-sm-12 col-md-4 col-lg-4">
-                <a href="#">TERMS & CONDITIONS</a>
-                <a href="#">PRIVACY POLICY</a>
+                <div class="foot-terms">
+                    <a href="#">TERMS & CONDITIONS</a>
+                    <a href="#">PRIVACY POLICY</a>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
-                <i class="fas fa-phone"></i> 555-693-8020
-                <i class="fas fa-at"></i> enjoy-travel@mail.com
-                <i class="fas fa-globe"></i> www.enjoytravel.com
+                <div class="foot-contact">
+                    <div class="navigation">
+                        <i class="fas fa-phone"></i>
+                        <p class="contact-info">555-693-8020</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-at"></i>
+                        <p>enjoy-travel@mail.com</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-globe"></i>
+                        <p>www.enjoytravel.com</p>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
+                <div class="foot-media">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
             </div>
         </div>
         <div class="second-data">

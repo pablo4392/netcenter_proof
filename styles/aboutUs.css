@@ -1,12 +1,11 @@
 .us-section {
-    height: max-content;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .about-us {
-    /* border: solid; */
     padding: 10px;
 }
 
@@ -19,36 +18,92 @@
     text-align: justify;
 }
 
+/*-------------- FORMULARY -----------------*/
 .formulary-section {
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .formulary {
-    /* margin-right: 100px; */
-    background-color: skyblue;
-    width: max-content;
+    background-color: rgba(15, 83, 186, 0.1);
+    width: 300px;
+    height: max-content;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .formulary-title {
-    background-color: royalblue;
+    margin: 0;
+    padding: 5px;
+    background-color: #0F52BA;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
 }
 
 .formulary-input {
-    margin-top: 5px;
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.formulary-button {
+    margin: 15px 30px;
+    display: flex;
+    justify-content: end;
 }
 
 .form-input-label {
-    font-size: 18px;
+    width: 100%;
+    margin-left: 35px;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .form-input {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 150px;
-    border: solid 2px;
+    width: 220px;
+    border: solid 1.5px #0F52BA;
+    border-radius: 6px;
+}
+
+/*-------------------- ADVANTAGES --------------*/
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.advantage-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #0F52BA;
+    color: #fff;
+    font-size: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage-description {
+    margin: 0 10;
+    text-align: center;
 }

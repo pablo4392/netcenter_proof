@@ -1,6 +1,6 @@
 .menu{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -11,12 +11,15 @@
     justify-content: center;
 }
 
-.nav-link {
+.link-navigation {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
 }
 
-.nav-link:hover {
-    background-color: red;
-    border-radius: 1rem;
+.link-navigation:hover {
+    padding: 5px;
+    background-color: rgba(15, 83, 186, 0.4);
+    border-radius: 10px;
 }

@@ -1,12 +1,39 @@
 .foot {
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    background-color: silver;
+    background-color: #0F52BA;
 }
 
 .first-data {
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.foot-terms {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    color: #fff;
+    display: flex;
+}
+
+.contact-info {
+    margin: 0;
+}
+
+.foot-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .second-data {

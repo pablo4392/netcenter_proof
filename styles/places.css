@@ -13,6 +13,45 @@
     width: 300px;
     height: 450px;
     margin: 10px;
-    border: solid black;
     border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-overlay {
+    background-color: rgba(22, 55, 122, 0.226);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-title {
+    color: rgb(201, 206, 219);
+    font-size: 35px;
+}
+
+#cancun {
+    background-image: url(https://media.staticontent.com/media/pictures/592e3b4d-c987-42b1-8030-a09a21680298);
+    background-size: cover;
+    background-position: center;
+}
+
+#puertoVallarta {
+    background-image: url(https://www.garzablancaresort.com.mx/blog/wp-content/uploads/2015/12/the-best-beaches-in-puerto-vallarta-e1506119214708.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#losCabos {
+    background-image: url(https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2021-03/los-cabos-que-visitar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#rivieraMaya {
+    background-image: url(https://gran.luchito.com/wp-content/uploads/2019/01/Cancun.jpg);
+    background-size: cover;
+    background-position: center;
 }
