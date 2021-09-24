@@ -1,6 +1,17 @@
-.places-section {
+.destinations {
     margin: 50px 0;
     padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+}
+
+.places-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +53,8 @@
 .card-title {
     color: #fff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;    
+    font-size: 32px;  
+    font-family: 'Permanent Marker', cursive;  
 }
 
 #cancun {
