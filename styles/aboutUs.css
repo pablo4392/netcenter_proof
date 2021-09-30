@@ -59,7 +59,7 @@
 }
 
 .formulary-button {
-    margin: 15px 30px;
+    margin: 8px 30px;
     display: flex;
     justify-content: end;
 }
@@ -73,10 +73,30 @@
     font-family: 'Lora', serif;
 }
 
+.required {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.label-required {
+    width: 100%;
+    padding: 10px;
+    text-align: end;
+}
+
+.text-label-required {
+    margin: 0;
+    font-size: 15px;
+}
+
 .form-input {
     width: 220px;
-    border: solid 1.5px #0F52BA;
+    color: #000;
+    border: solid 2px #0F52BA;
     border-radius: 6px;
+    background-color: #FFF;
+    font-size: 16px;
 }
 
 /*-------------------- ADVANTAGES --------------*/

@@ -1,3 +1,12 @@
+.all-menu {
+    display: flex;
+}
+
+.logo-page {
+    width: 100px;
+    height: 100px;
+}
+
 .menu{
     margin-top: 8px;
     margin-bottom: 8px;

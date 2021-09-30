@@ -1,9 +1,12 @@
 .foot {
     height: max-content;
-    margin-top: 8rem;
+    margin-top: 2rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
-    background-color: #0F52BA;
+    /* background-color: #0F52BA; */
+    background-image: url(https://www.amazing-mexico.com/img/footer.2de8828c.jpg);
+    background-size: cover;
 }
 
 .first-data {
@@ -69,7 +72,7 @@
     margin: 15px 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .space-foot-icon {
@@ -80,6 +83,16 @@
     font-size: 40px;
     color: #fff;
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    .foot-icon:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #035397;
+        border-radius: 15px;
+        padding: 3px;
+        transition: all 0.8s;
+    }   
 }
 
 /*------------------------ SECOND SECTION ------------------------------ */
